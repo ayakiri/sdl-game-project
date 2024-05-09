@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+# cmake directory - gonna not include dir cmake-build and the 2nd one in mygame
+mygame/cmake-build-debug
+mygame/vendored
