@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Programming/sdl-game-project/mygame/vendored/sdl/src/main/windows/version.rc
+winresrc.h
+D:/Programming/sdl-game-project/mygame/vendored/sdl/src/main/windows/winresrc.h
+

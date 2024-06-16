@@ -1,13 +1,13 @@
-if (NOT EXISTS "C:/github/check-if-works/mygame/cmake-build-debug/install_manifest.txt")
-    message(FATAL_ERROR "Cannot find install manifest: \"C:/github/check-if-works/mygame/cmake-build-debug/install_manifest.txt\"")
-endif(NOT EXISTS "C:/github/check-if-works/mygame/cmake-build-debug/install_manifest.txt")
+if (NOT EXISTS "D:/Programming/sdl-game-project/mygame/cmake-build-debug/install_manifest.txt")
+    message(FATAL_ERROR "Cannot find install manifest: \"D:/Programming/sdl-game-project/mygame/cmake-build-debug/install_manifest.txt\"")
+endif(NOT EXISTS "D:/Programming/sdl-game-project/mygame/cmake-build-debug/install_manifest.txt")
 
-file(READ "C:/github/check-if-works/mygame/cmake-build-debug/install_manifest.txt" files)
+file(READ "D:/Programming/sdl-game-project/mygame/cmake-build-debug/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 foreach (file ${files})
     message(STATUS "Uninstalling \"$ENV{DESTDIR}${file}\"")
     execute_process(
-        COMMAND C:/Program Files/JetBrains/CLion 2022.1.3/bin/cmake/win/bin/cmake.exe -E remove "$ENV{DESTDIR}${file}"
+        COMMAND C:/Program Files/JetBrains/CLion 2024.1.1/bin/cmake/win/x64/bin/cmake.exe -E remove "$ENV{DESTDIR}${file}"
         OUTPUT_VARIABLE rm_out
         RESULT_VARIABLE rm_retval
     )
