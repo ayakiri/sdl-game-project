@@ -1,4 +1,4 @@
-# Install script for directory: C:/github/sdl-game-project/mygame
+# Install script for directory: C:/github/check-if-works/mygame
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/github/sdl-game-project/mygame/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/github/check-if-works/mygame/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

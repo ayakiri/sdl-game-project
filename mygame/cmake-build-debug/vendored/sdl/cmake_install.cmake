@@ -1,4 +1,4 @@
-# Install script for directory: C:/github/sdl-game-project/mygame/vendored/sdl
+# Install script for directory: C:/github/check-if-works/mygame/vendored/sdl
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -1,19 +1,22 @@
 Determining if the __GLIBC__ exist failed with the following output:
-Change Dir: C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.1.3/bin/ninja/win/ninja.exe cmTC_e7486 && [1/2] Building C object CMakeFiles/cmTC_e7486.dir/CheckSymbolExists.c.obj
-FAILED: CMakeFiles/cmTC_e7486.dir/CheckSymbolExists.c.obj 
-C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe    -o CMakeFiles/cmTC_e7486.dir/CheckSymbolExists.c.obj -c C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: '__GLIBC__' undeclared (first use in this function); did you mean '__LINE__'?
+Run Build Command(s):C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_379cf/fast && C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_379cf.dir\build.make CMakeFiles/cmTC_379cf.dir/build
+mingw32-make[1]: Entering directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_379cf.dir/CheckSymbolExists.c.obj
+C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe    -o CMakeFiles\cmTC_379cf.dir\CheckSymbolExists.c.obj -c C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8:19: error: '__GLIBC__' undeclared (first use in this function); did you mean '__LINE__'?
     8 |   return ((int*)(&__GLIBC__))[argc];
       |                   ^~~~~~~~~
       |                   __LINE__
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
-ninja: build stopped: subcommand failed.
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+mingw32-make[1]: *** [CMakeFiles\cmTC_379cf.dir\build.make:77: CMakeFiles/cmTC_379cf.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_379cf/fast] Error 2
 
 
-File C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <stdlib.h>
 
@@ -28,24 +31,27 @@ int main(int argc, char** argv)
 #endif
 }
 Performing C SOURCE FILE Test CHECK_CPU_ARCHITECTURE_X86 failed with the following output:
-Change Dir: C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.1.3/bin/ninja/win/ninja.exe cmTC_7bdb4 && [1/2] Building C object CMakeFiles/cmTC_7bdb4.dir/src.c.obj
-FAILED: CMakeFiles/cmTC_7bdb4.dir/src.c.obj 
-C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe -DCHECK_CPU_ARCHITECTURE_X86   -o CMakeFiles/cmTC_7bdb4.dir/src.c.obj -c C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/src.c: In function 'main':
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:6:3: error: 'choke' undeclared (first use in this function)
+Run Build Command(s):C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_fc576/fast && C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_fc576.dir\build.make CMakeFiles/cmTC_fc576.dir/build
+mingw32-make[1]: Entering directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fc576.dir/src.c.obj
+C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe -DCHECK_CPU_ARCHITECTURE_X86   -o CMakeFiles\cmTC_fc576.dir\src.c.obj -c C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\src.c
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\src.c: In function 'main':
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\src.c:6:3: error: 'choke' undeclared (first use in this function)
     6 |   choke
       |   ^~~~~
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:6:3: note: each undeclared identifier is reported only once for each function it appears in
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:6:8: error: expected ';' before '}' token
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\src.c:6:3: note: each undeclared identifier is reported only once for each function it appears in
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\src.c:6:8: error: expected ';' before '}' token
     6 |   choke
       |        ^
       |        ;
     7 | #endif
     8 | }
       | ~       
-ninja: build stopped: subcommand failed.
+mingw32-make[1]: *** [CMakeFiles\cmTC_fc576.dir\build.make:77: CMakeFiles/cmTC_fc576.dir/src.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_fc576/fast] Error 2
 
 
 Source file was:
@@ -59,24 +65,27 @@ int main(int argc, char *argv[]) {
 }
 
 Performing C SOURCE FILE Test CHECK_CPU_ARCHITECTURE_ARM32 failed with the following output:
-Change Dir: C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.1.3/bin/ninja/win/ninja.exe cmTC_5e164 && [1/2] Building C object CMakeFiles/cmTC_5e164.dir/src.c.obj
-FAILED: CMakeFiles/cmTC_5e164.dir/src.c.obj 
-C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe -DCHECK_CPU_ARCHITECTURE_ARM32   -o CMakeFiles/cmTC_5e164.dir/src.c.obj -c C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/src.c: In function 'main':
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:6:3: error: 'choke' undeclared (first use in this function)
+Run Build Command(s):C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_12c90/fast && C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_12c90.dir\build.make CMakeFiles/cmTC_12c90.dir/build
+mingw32-make[1]: Entering directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_12c90.dir/src.c.obj
+C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe -DCHECK_CPU_ARCHITECTURE_ARM32   -o CMakeFiles\cmTC_12c90.dir\src.c.obj -c C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\src.c
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\src.c: In function 'main':
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\src.c:6:3: error: 'choke' undeclared (first use in this function)
     6 |   choke
       |   ^~~~~
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:6:3: note: each undeclared identifier is reported only once for each function it appears in
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:6:8: error: expected ';' before '}' token
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\src.c:6:3: note: each undeclared identifier is reported only once for each function it appears in
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\src.c:6:8: error: expected ';' before '}' token
     6 |   choke
       |        ^
       |        ;
     7 | #endif
     8 | }
       | ~       
-ninja: build stopped: subcommand failed.
+mingw32-make[1]: *** [CMakeFiles\cmTC_12c90.dir\build.make:77: CMakeFiles/cmTC_12c90.dir/src.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_12c90/fast] Error 2
 
 
 Source file was:
@@ -90,24 +99,27 @@ int main(int argc, char *argv[]) {
 }
 
 Performing C SOURCE FILE Test CHECK_CPU_ARCHITECTURE_ARM64 failed with the following output:
-Change Dir: C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.1.3/bin/ninja/win/ninja.exe cmTC_915eb && [1/2] Building C object CMakeFiles/cmTC_915eb.dir/src.c.obj
-FAILED: CMakeFiles/cmTC_915eb.dir/src.c.obj 
-C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe -DCHECK_CPU_ARCHITECTURE_ARM64   -o CMakeFiles/cmTC_915eb.dir/src.c.obj -c C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/src.c: In function 'main':
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:6:3: error: 'choke' undeclared (first use in this function)
+Run Build Command(s):C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_6d4bc/fast && C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_6d4bc.dir\build.make CMakeFiles/cmTC_6d4bc.dir/build
+mingw32-make[1]: Entering directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6d4bc.dir/src.c.obj
+C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe -DCHECK_CPU_ARCHITECTURE_ARM64   -o CMakeFiles\cmTC_6d4bc.dir\src.c.obj -c C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\src.c
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\src.c: In function 'main':
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\src.c:6:3: error: 'choke' undeclared (first use in this function)
     6 |   choke
       |   ^~~~~
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:6:3: note: each undeclared identifier is reported only once for each function it appears in
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:6:8: error: expected ';' before '}' token
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\src.c:6:3: note: each undeclared identifier is reported only once for each function it appears in
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\src.c:6:8: error: expected ';' before '}' token
     6 |   choke
       |        ^
       |        ;
     7 | #endif
     8 | }
       | ~       
-ninja: build stopped: subcommand failed.
+mingw32-make[1]: *** [CMakeFiles\cmTC_6d4bc.dir\build.make:77: CMakeFiles/cmTC_6d4bc.dir/src.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_6d4bc/fast] Error 2
 
 
 Source file was:
@@ -121,24 +133,27 @@ int main(int argc, char *argv[]) {
 }
 
 Performing C SOURCE FILE Test CHECK_CPU_ARCHITECTURE_LOONGARCH64 failed with the following output:
-Change Dir: C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.1.3/bin/ninja/win/ninja.exe cmTC_7dcf9 && [1/2] Building C object CMakeFiles/cmTC_7dcf9.dir/src.c.obj
-FAILED: CMakeFiles/cmTC_7dcf9.dir/src.c.obj 
-C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe -DCHECK_CPU_ARCHITECTURE_LOONGARCH64   -o CMakeFiles/cmTC_7dcf9.dir/src.c.obj -c C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/src.c: In function 'main':
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:6:3: error: 'choke' undeclared (first use in this function)
+Run Build Command(s):C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_a2b3d/fast && C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_a2b3d.dir\build.make CMakeFiles/cmTC_a2b3d.dir/build
+mingw32-make[1]: Entering directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a2b3d.dir/src.c.obj
+C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe -DCHECK_CPU_ARCHITECTURE_LOONGARCH64   -o CMakeFiles\cmTC_a2b3d.dir\src.c.obj -c C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\src.c
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\src.c: In function 'main':
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\src.c:6:3: error: 'choke' undeclared (first use in this function)
     6 |   choke
       |   ^~~~~
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:6:3: note: each undeclared identifier is reported only once for each function it appears in
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:6:8: error: expected ';' before '}' token
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\src.c:6:3: note: each undeclared identifier is reported only once for each function it appears in
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\src.c:6:8: error: expected ';' before '}' token
     6 |   choke
       |        ^
       |        ;
     7 | #endif
     8 | }
       | ~       
-ninja: build stopped: subcommand failed.
+mingw32-make[1]: *** [CMakeFiles\cmTC_a2b3d.dir\build.make:77: CMakeFiles/cmTC_a2b3d.dir/src.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_a2b3d/fast] Error 2
 
 
 Source file was:
@@ -152,62 +167,78 @@ int main(int argc, char *argv[]) {
 }
 
 Performing C SOURCE FILE Test HAVE_GCC_WDOCUMENTATION failed with the following output:
-Change Dir: C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.1.3/bin/ninja/win/ninja.exe cmTC_e4e7a && [1/2] Building C object CMakeFiles/cmTC_e4e7a.dir/src.c.obj
-FAILED: CMakeFiles/cmTC_e4e7a.dir/src.c.obj 
-C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe -DHAVE_GCC_WDOCUMENTATION  -idirafter "C:/github/sdl-game-project/mygame/vendored/sdl/src/video/khronos"  -D_GNU_SOURCE=1   -Wdocumentation -o CMakeFiles/cmTC_e4e7a.dir/src.c.obj -c C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Run Build Command(s):C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_23a1d/fast && C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_23a1d.dir\build.make CMakeFiles/cmTC_23a1d.dir/build
+mingw32-make[1]: Entering directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_23a1d.dir/src.c.obj
+C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe -DHAVE_GCC_WDOCUMENTATION  -idirafter "C:/github/check-if-works/mygame/vendored/sdl/src/video/khronos"  -D_GNU_SOURCE=1   -Wdocumentation -o CMakeFiles\cmTC_23a1d.dir\src.c.obj -c C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\src.c
 gcc.exe: error: unrecognized command-line option '-Wdocumentation'
-ninja: build stopped: subcommand failed.
+mingw32-make[1]: *** [CMakeFiles\cmTC_23a1d.dir\build.make:77: CMakeFiles/cmTC_23a1d.dir/src.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_23a1d/fast] Error 2
 
 
 Source file was:
 int main(void) { return 0; }
 Performing C SOURCE FILE Test HAVE_GCC_WDOCUMENTATION_UNKNOWN_COMMAND failed with the following output:
-Change Dir: C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.1.3/bin/ninja/win/ninja.exe cmTC_41fa6 && [1/2] Building C object CMakeFiles/cmTC_41fa6.dir/src.c.obj
-FAILED: CMakeFiles/cmTC_41fa6.dir/src.c.obj 
-C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe -DHAVE_GCC_WDOCUMENTATION_UNKNOWN_COMMAND  -idirafter "C:/github/sdl-game-project/mygame/vendored/sdl/src/video/khronos"  -D_GNU_SOURCE=1   -Wdocumentation-unknown-command -o CMakeFiles/cmTC_41fa6.dir/src.c.obj -c C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Run Build Command(s):C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_b5b0b/fast && C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_b5b0b.dir\build.make CMakeFiles/cmTC_b5b0b.dir/build
+mingw32-make[1]: Entering directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b5b0b.dir/src.c.obj
+C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe -DHAVE_GCC_WDOCUMENTATION_UNKNOWN_COMMAND  -idirafter "C:/github/check-if-works/mygame/vendored/sdl/src/video/khronos"  -D_GNU_SOURCE=1   -Wdocumentation-unknown-command -o CMakeFiles\cmTC_b5b0b.dir\src.c.obj -c C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\src.c
 gcc.exe: error: unrecognized command-line option '-Wdocumentation-unknown-command'
-ninja: build stopped: subcommand failed.
+mingw32-make[1]: *** [CMakeFiles\cmTC_b5b0b.dir\build.make:77: CMakeFiles/cmTC_b5b0b.dir/src.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_b5b0b/fast] Error 2
 
 
 Source file was:
 int main(void) { return 0; }
 Performing C SOURCE FILE Test HAVE_GCC_COMMENT_BLOCK_COMMANDS failed with the following output:
-Change Dir: C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.1.3/bin/ninja/win/ninja.exe cmTC_a643c && [1/2] Building C object CMakeFiles/cmTC_a643c.dir/src.c.obj
-FAILED: CMakeFiles/cmTC_a643c.dir/src.c.obj 
-C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe -DHAVE_GCC_COMMENT_BLOCK_COMMANDS  -idirafter "C:/github/sdl-game-project/mygame/vendored/sdl/src/video/khronos"  -D_GNU_SOURCE=1   -fcomment-block-commands=threadsafety -o CMakeFiles/cmTC_a643c.dir/src.c.obj -c C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Run Build Command(s):C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_448d9/fast && C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_448d9.dir\build.make CMakeFiles/cmTC_448d9.dir/build
+mingw32-make[1]: Entering directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_448d9.dir/src.c.obj
+C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe -DHAVE_GCC_COMMENT_BLOCK_COMMANDS  -idirafter "C:/github/check-if-works/mygame/vendored/sdl/src/video/khronos"  -D_GNU_SOURCE=1   -fcomment-block-commands=threadsafety -o CMakeFiles\cmTC_448d9.dir\src.c.obj -c C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\src.c
 gcc.exe: error: unrecognized command-line option '-fcomment-block-commands=threadsafety'
-ninja: build stopped: subcommand failed.
+mingw32-make[1]: *** [CMakeFiles\cmTC_448d9.dir\build.make:77: CMakeFiles/cmTC_448d9.dir/src.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_448d9/fast] Error 2
 
 
 Source file was:
 int main(void) { return 0; }
 Performing C SOURCE FILE Test HAVE_CLANG_COMMENT_BLOCK_COMMANDS failed with the following output:
-Change Dir: C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.1.3/bin/ninja/win/ninja.exe cmTC_6009c && [1/2] Building C object CMakeFiles/cmTC_6009c.dir/src.c.obj
-FAILED: CMakeFiles/cmTC_6009c.dir/src.c.obj 
-C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe -DHAVE_CLANG_COMMENT_BLOCK_COMMANDS  -idirafter "C:/github/sdl-game-project/mygame/vendored/sdl/src/video/khronos"  -D_GNU_SOURCE=1   /clang:-fcomment-block-commands=threadsafety -o CMakeFiles/cmTC_6009c.dir/src.c.obj -c C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Run Build Command(s):C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_91046/fast && C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_91046.dir\build.make CMakeFiles/cmTC_91046.dir/build
+mingw32-make[1]: Entering directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_91046.dir/src.c.obj
+C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe -DHAVE_CLANG_COMMENT_BLOCK_COMMANDS  -idirafter "C:/github/check-if-works/mygame/vendored/sdl/src/video/khronos"  -D_GNU_SOURCE=1   /clang:-fcomment-block-commands=threadsafety -o CMakeFiles\cmTC_91046.dir\src.c.obj -c C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\src.c
 gcc.exe: warning: /clang:-fcomment-block-commands=threadsafety: linker input file unused because linking not done
 gcc.exe: error: /clang:-fcomment-block-commands=threadsafety: linker input file not found: No such file or directory
-ninja: build stopped: subcommand failed.
+mingw32-make[1]: *** [CMakeFiles\cmTC_91046.dir\build.make:77: CMakeFiles/cmTC_91046.dir/src.c.obj] Error 1
+mingw32-make[1]: *** Deleting file 'CMakeFiles/cmTC_91046.dir/src.c.obj'
+mingw32-make[1]: Leaving directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_91046/fast] Error 2
 
 
 Source file was:
 int main(void) { return 0; }
 Performing C SOURCE FILE Test HAVE_ALTIVEC_H_HDR failed with the following output:
-Change Dir: C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.1.3/bin/ninja/win/ninja.exe cmTC_92322 && [1/2] Building C object CMakeFiles/cmTC_92322.dir/src.c.obj
-FAILED: CMakeFiles/cmTC_92322.dir/src.c.obj 
-C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe -DHAVE_ALTIVEC_H_HDR  -idirafter "C:/github/sdl-game-project/mygame/vendored/sdl/src/video/khronos" -maltivec -o CMakeFiles/cmTC_92322.dir/src.c.obj -c C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Run Build Command(s):C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_e71fb/fast && C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_e71fb.dir\build.make CMakeFiles/cmTC_e71fb.dir/build
+mingw32-make[1]: Entering directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e71fb.dir/src.c.obj
+C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe -DHAVE_ALTIVEC_H_HDR  -idirafter "C:/github/check-if-works/mygame/vendored/sdl/src/video/khronos" -maltivec -o CMakeFiles\cmTC_e71fb.dir\src.c.obj -c C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\src.c
 gcc.exe: error: unrecognized command-line option '-maltivec'
-ninja: build stopped: subcommand failed.
+mingw32-make[1]: *** [CMakeFiles\cmTC_e71fb.dir\build.make:77: CMakeFiles/cmTC_e71fb.dir/src.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_e71fb/fast] Error 2
 
 
 Source file was:
@@ -218,13 +249,16 @@ Source file was:
           }
           int main(int argc, char **argv) { return 0; }
 Performing C SOURCE FILE Test CPU_SUPPORTS_ALTIVEC failed with the following output:
-Change Dir: C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.1.3/bin/ninja/win/ninja.exe cmTC_b5490 && [1/2] Building C object CMakeFiles/cmTC_b5490.dir/src.c.obj
-FAILED: CMakeFiles/cmTC_b5490.dir/src.c.obj 
-C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe -DCPU_SUPPORTS_ALTIVEC  -idirafter "C:/github/sdl-game-project/mygame/vendored/sdl/src/video/khronos" -maltivec -o CMakeFiles/cmTC_b5490.dir/src.c.obj -c C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Run Build Command(s):C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_c0b44/fast && C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_c0b44.dir\build.make CMakeFiles/cmTC_c0b44.dir/build
+mingw32-make[1]: Entering directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c0b44.dir/src.c.obj
+C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe -DCPU_SUPPORTS_ALTIVEC  -idirafter "C:/github/check-if-works/mygame/vendored/sdl/src/video/khronos" -maltivec -o CMakeFiles\cmTC_c0b44.dir\src.c.obj -c C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\src.c
 gcc.exe: error: unrecognized command-line option '-maltivec'
-ninja: build stopped: subcommand failed.
+mingw32-make[1]: *** [CMakeFiles\cmTC_c0b44.dir\build.make:77: CMakeFiles/cmTC_c0b44.dir/src.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_c0b44/fast] Error 2
 
 
 Source file was:
@@ -234,30 +268,36 @@ Source file was:
           }
           int main(int argc, char **argv) { return 0; }
 Determining if the include file iconv.h exists failed with the following output:
-Change Dir: C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.1.3/bin/ninja/win/ninja.exe cmTC_47687 && [1/2] Building C object CMakeFiles/cmTC_47687.dir/CheckIncludeFile.c.obj
-FAILED: CMakeFiles/cmTC_47687.dir/CheckIncludeFile.c.obj 
-C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe   -idirafter "C:/github/sdl-game-project/mygame/vendored/sdl/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_47687.dir/CheckIncludeFile.c.obj -c C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: iconv.h: No such file or directory
+Run Build Command(s):C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_73783/fast && C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_73783.dir\build.make CMakeFiles/cmTC_73783.dir/build
+mingw32-make[1]: Entering directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_73783.dir/CheckIncludeFile.c.obj
+C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe   -idirafter "C:/github/check-if-works/mygame/vendored/sdl/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_73783.dir\CheckIncludeFile.c.obj -c C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:10: fatal error: iconv.h: No such file or directory
     1 | #include <iconv.h>
       |          ^~~~~~~~~
 compilation terminated.
-ninja: build stopped: subcommand failed.
+mingw32-make[1]: *** [CMakeFiles\cmTC_73783.dir\build.make:77: CMakeFiles/cmTC_73783.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_73783/fast] Error 2
 
 
 
 Performing C SOURCE FILE Test HAVE_MPROTECT failed with the following output:
-Change Dir: C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.1.3/bin/ninja/win/ninja.exe cmTC_bcefc && [1/2] Building C object CMakeFiles/cmTC_bcefc.dir/src.c.obj
-FAILED: CMakeFiles/cmTC_bcefc.dir/src.c.obj 
-C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe -DHAVE_MPROTECT  -idirafter "C:/github/sdl-game-project/mygame/vendored/sdl/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_bcefc.dir/src.c.obj -c C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:2:39: fatal error: sys/mman.h: No such file or directory
+Run Build Command(s):C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_36b76/fast && C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_36b76.dir\build.make CMakeFiles/cmTC_36b76.dir/build
+mingw32-make[1]: Entering directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_36b76.dir/src.c.obj
+C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe -DHAVE_MPROTECT  -idirafter "C:/github/check-if-works/mygame/vendored/sdl/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_36b76.dir\src.c.obj -c C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\src.c
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\src.c:2:39: fatal error: sys/mman.h: No such file or directory
     2 |                              #include <sys/mman.h>
       |                                       ^~~~~~~~~~~~
 compilation terminated.
-ninja: build stopped: subcommand failed.
+mingw32-make[1]: *** [CMakeFiles\cmTC_36b76.dir\build.make:77: CMakeFiles/cmTC_36b76.dir/src.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_36b76/fast] Error 2
 
 
 Source file was:
@@ -265,21 +305,24 @@ Source file was:
                              #include <sys/mman.h>
                              int main(void) { return 0; }
 Determining if the setenv exist failed with the following output:
-Change Dir: C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.1.3/bin/ninja/win/ninja.exe cmTC_c625b && [1/2] Building C object CMakeFiles/cmTC_c625b.dir/CheckSymbolExists.c.obj
-FAILED: CMakeFiles/cmTC_c625b.dir/CheckSymbolExists.c.obj 
-C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe   -idirafter "C:/github/sdl-game-project/mygame/vendored/sdl/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_c625b.dir/CheckSymbolExists.c.obj -c C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: error: 'setenv' undeclared (first use in this function); did you mean 'getenv'?
+Run Build Command(s):C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_687d5/fast && C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_687d5.dir\build.make CMakeFiles/cmTC_687d5.dir/build
+mingw32-make[1]: Entering directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_687d5.dir/CheckSymbolExists.c.obj
+C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe   -idirafter "C:/github/check-if-works/mygame/vendored/sdl/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_687d5.dir\CheckSymbolExists.c.obj -c C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: error: 'setenv' undeclared (first use in this function); did you mean 'getenv'?
    14 |   return ((int*)(&setenv))[argc];
       |                   ^~~~~~
       |                   getenv
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
-ninja: build stopped: subcommand failed.
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+mingw32-make[1]: *** [CMakeFiles\cmTC_687d5.dir\build.make:77: CMakeFiles/cmTC_687d5.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_687d5/fast] Error 2
 
 
-File C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <stddef.h>
 #include <stdarg.h>
@@ -300,20 +343,23 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the unsetenv exist failed with the following output:
-Change Dir: C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.1.3/bin/ninja/win/ninja.exe cmTC_b97b6 && [1/2] Building C object CMakeFiles/cmTC_b97b6.dir/CheckSymbolExists.c.obj
-FAILED: CMakeFiles/cmTC_b97b6.dir/CheckSymbolExists.c.obj 
-C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe   -idirafter "C:/github/sdl-game-project/mygame/vendored/sdl/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_b97b6.dir/CheckSymbolExists.c.obj -c C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: error: 'unsetenv' undeclared (first use in this function)
+Run Build Command(s):C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_a51c2/fast && C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_a51c2.dir\build.make CMakeFiles/cmTC_a51c2.dir/build
+mingw32-make[1]: Entering directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a51c2.dir/CheckSymbolExists.c.obj
+C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe   -idirafter "C:/github/check-if-works/mygame/vendored/sdl/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_a51c2.dir\CheckSymbolExists.c.obj -c C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: error: 'unsetenv' undeclared (first use in this function)
    14 |   return ((int*)(&unsetenv))[argc];
       |                   ^~~~~~~~
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
-ninja: build stopped: subcommand failed.
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+mingw32-make[1]: *** [CMakeFiles\cmTC_a51c2.dir\build.make:77: CMakeFiles/cmTC_a51c2.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_a51c2/fast] Error 2
 
 
-File C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <stddef.h>
 #include <stdarg.h>
@@ -334,20 +380,23 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the bcopy exist failed with the following output:
-Change Dir: C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.1.3/bin/ninja/win/ninja.exe cmTC_e7ca7 && [1/2] Building C object CMakeFiles/cmTC_e7ca7.dir/CheckSymbolExists.c.obj
-FAILED: CMakeFiles/cmTC_e7ca7.dir/CheckSymbolExists.c.obj 
-C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe   -idirafter "C:/github/sdl-game-project/mygame/vendored/sdl/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_e7ca7.dir/CheckSymbolExists.c.obj -c C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: error: 'bcopy' undeclared (first use in this function)
+Run Build Command(s):C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_4f68c/fast && C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_4f68c.dir\build.make CMakeFiles/cmTC_4f68c.dir/build
+mingw32-make[1]: Entering directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4f68c.dir/CheckSymbolExists.c.obj
+C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe   -idirafter "C:/github/check-if-works/mygame/vendored/sdl/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_4f68c.dir\CheckSymbolExists.c.obj -c C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: error: 'bcopy' undeclared (first use in this function)
    14 |   return ((int*)(&bcopy))[argc];
       |                   ^~~~~
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
-ninja: build stopped: subcommand failed.
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+mingw32-make[1]: *** [CMakeFiles\cmTC_4f68c.dir\build.make:77: CMakeFiles/cmTC_4f68c.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_4f68c/fast] Error 2
 
 
-File C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <stddef.h>
 #include <stdarg.h>
@@ -368,21 +417,24 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the strlcpy exist failed with the following output:
-Change Dir: C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.1.3/bin/ninja/win/ninja.exe cmTC_f1eb6 && [1/2] Building C object CMakeFiles/cmTC_f1eb6.dir/CheckSymbolExists.c.obj
-FAILED: CMakeFiles/cmTC_f1eb6.dir/CheckSymbolExists.c.obj 
-C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe   -idirafter "C:/github/sdl-game-project/mygame/vendored/sdl/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_f1eb6.dir/CheckSymbolExists.c.obj -c C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: error: 'strlcpy' undeclared (first use in this function); did you mean 'strncpy'?
+Run Build Command(s):C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_8b241/fast && C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_8b241.dir\build.make CMakeFiles/cmTC_8b241.dir/build
+mingw32-make[1]: Entering directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8b241.dir/CheckSymbolExists.c.obj
+C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe   -idirafter "C:/github/check-if-works/mygame/vendored/sdl/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_8b241.dir\CheckSymbolExists.c.obj -c C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: error: 'strlcpy' undeclared (first use in this function); did you mean 'strncpy'?
    14 |   return ((int*)(&strlcpy))[argc];
       |                   ^~~~~~~
       |                   strncpy
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
-ninja: build stopped: subcommand failed.
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+mingw32-make[1]: *** [CMakeFiles\cmTC_8b241.dir\build.make:77: CMakeFiles/cmTC_8b241.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_8b241/fast] Error 2
 
 
-File C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <stddef.h>
 #include <stdarg.h>
@@ -403,21 +455,24 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the strlcat exist failed with the following output:
-Change Dir: C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.1.3/bin/ninja/win/ninja.exe cmTC_23925 && [1/2] Building C object CMakeFiles/cmTC_23925.dir/CheckSymbolExists.c.obj
-FAILED: CMakeFiles/cmTC_23925.dir/CheckSymbolExists.c.obj 
-C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe   -idirafter "C:/github/sdl-game-project/mygame/vendored/sdl/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_23925.dir/CheckSymbolExists.c.obj -c C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: error: 'strlcat' undeclared (first use in this function); did you mean 'strncat'?
+Run Build Command(s):C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_d5bc6/fast && C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_d5bc6.dir\build.make CMakeFiles/cmTC_d5bc6.dir/build
+mingw32-make[1]: Entering directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d5bc6.dir/CheckSymbolExists.c.obj
+C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe   -idirafter "C:/github/check-if-works/mygame/vendored/sdl/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_d5bc6.dir\CheckSymbolExists.c.obj -c C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: error: 'strlcat' undeclared (first use in this function); did you mean 'strncat'?
    14 |   return ((int*)(&strlcat))[argc];
       |                   ^~~~~~~
       |                   strncat
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
-ninja: build stopped: subcommand failed.
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+mingw32-make[1]: *** [CMakeFiles\cmTC_d5bc6.dir\build.make:77: CMakeFiles/cmTC_d5bc6.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_d5bc6/fast] Error 2
 
 
-File C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <stddef.h>
 #include <stdarg.h>
@@ -438,20 +493,23 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the index exist failed with the following output:
-Change Dir: C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.1.3/bin/ninja/win/ninja.exe cmTC_6136f && [1/2] Building C object CMakeFiles/cmTC_6136f.dir/CheckSymbolExists.c.obj
-FAILED: CMakeFiles/cmTC_6136f.dir/CheckSymbolExists.c.obj 
-C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe   -idirafter "C:/github/sdl-game-project/mygame/vendored/sdl/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_6136f.dir/CheckSymbolExists.c.obj -c C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: error: 'index' undeclared (first use in this function)
+Run Build Command(s):C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_996c3/fast && C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_996c3.dir\build.make CMakeFiles/cmTC_996c3.dir/build
+mingw32-make[1]: Entering directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_996c3.dir/CheckSymbolExists.c.obj
+C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe   -idirafter "C:/github/check-if-works/mygame/vendored/sdl/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_996c3.dir\CheckSymbolExists.c.obj -c C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: error: 'index' undeclared (first use in this function)
    14 |   return ((int*)(&index))[argc];
       |                   ^~~~~
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
-ninja: build stopped: subcommand failed.
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+mingw32-make[1]: *** [CMakeFiles\cmTC_996c3.dir\build.make:77: CMakeFiles/cmTC_996c3.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_996c3/fast] Error 2
 
 
-File C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <stddef.h>
 #include <stdarg.h>
@@ -472,20 +530,23 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the rindex exist failed with the following output:
-Change Dir: C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.1.3/bin/ninja/win/ninja.exe cmTC_f3bfb && [1/2] Building C object CMakeFiles/cmTC_f3bfb.dir/CheckSymbolExists.c.obj
-FAILED: CMakeFiles/cmTC_f3bfb.dir/CheckSymbolExists.c.obj 
-C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe   -idirafter "C:/github/sdl-game-project/mygame/vendored/sdl/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_f3bfb.dir/CheckSymbolExists.c.obj -c C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: error: 'rindex' undeclared (first use in this function)
+Run Build Command(s):C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_88313/fast && C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_88313.dir\build.make CMakeFiles/cmTC_88313.dir/build
+mingw32-make[1]: Entering directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_88313.dir/CheckSymbolExists.c.obj
+C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe   -idirafter "C:/github/check-if-works/mygame/vendored/sdl/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_88313.dir\CheckSymbolExists.c.obj -c C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: error: 'rindex' undeclared (first use in this function)
    14 |   return ((int*)(&rindex))[argc];
       |                   ^~~~~~
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
-ninja: build stopped: subcommand failed.
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+mingw32-make[1]: *** [CMakeFiles\cmTC_88313.dir\build.make:77: CMakeFiles/cmTC_88313.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_88313/fast] Error 2
 
 
-File C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <stddef.h>
 #include <stdarg.h>
@@ -506,21 +567,24 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the _uitoa exist failed with the following output:
-Change Dir: C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.1.3/bin/ninja/win/ninja.exe cmTC_63fda && [1/2] Building C object CMakeFiles/cmTC_63fda.dir/CheckSymbolExists.c.obj
-FAILED: CMakeFiles/cmTC_63fda.dir/CheckSymbolExists.c.obj 
-C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe   -idirafter "C:/github/sdl-game-project/mygame/vendored/sdl/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_63fda.dir/CheckSymbolExists.c.obj -c C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: error: '_uitoa' undeclared (first use in this function); did you mean '_ultoa'?
+Run Build Command(s):C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_a31f9/fast && C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_a31f9.dir\build.make CMakeFiles/cmTC_a31f9.dir/build
+mingw32-make[1]: Entering directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a31f9.dir/CheckSymbolExists.c.obj
+C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe   -idirafter "C:/github/check-if-works/mygame/vendored/sdl/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_a31f9.dir\CheckSymbolExists.c.obj -c C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: error: '_uitoa' undeclared (first use in this function); did you mean '_ultoa'?
    14 |   return ((int*)(&_uitoa))[argc];
       |                   ^~~~~~
       |                   _ultoa
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
-ninja: build stopped: subcommand failed.
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+mingw32-make[1]: *** [CMakeFiles\cmTC_a31f9.dir\build.make:77: CMakeFiles/cmTC_a31f9.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_a31f9/fast] Error 2
 
 
-File C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <stddef.h>
 #include <stdarg.h>
@@ -541,21 +605,24 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the strcasestr exist failed with the following output:
-Change Dir: C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.1.3/bin/ninja/win/ninja.exe cmTC_e687e && [1/2] Building C object CMakeFiles/cmTC_e687e.dir/CheckSymbolExists.c.obj
-FAILED: CMakeFiles/cmTC_e687e.dir/CheckSymbolExists.c.obj 
-C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe   -idirafter "C:/github/sdl-game-project/mygame/vendored/sdl/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_e687e.dir/CheckSymbolExists.c.obj -c C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: error: 'strcasestr' undeclared (first use in this function); did you mean 'strcasecmp'?
+Run Build Command(s):C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_02ca4/fast && C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_02ca4.dir\build.make CMakeFiles/cmTC_02ca4.dir/build
+mingw32-make[1]: Entering directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_02ca4.dir/CheckSymbolExists.c.obj
+C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe   -idirafter "C:/github/check-if-works/mygame/vendored/sdl/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_02ca4.dir\CheckSymbolExists.c.obj -c C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: error: 'strcasestr' undeclared (first use in this function); did you mean 'strcasecmp'?
    14 |   return ((int*)(&strcasestr))[argc];
       |                   ^~~~~~~~~~
       |                   strcasecmp
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
-ninja: build stopped: subcommand failed.
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+mingw32-make[1]: *** [CMakeFiles\cmTC_02ca4.dir\build.make:77: CMakeFiles/cmTC_02ca4.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_02ca4/fast] Error 2
 
 
-File C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <stddef.h>
 #include <stdarg.h>
@@ -576,21 +643,24 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the wcslcat exist failed with the following output:
-Change Dir: C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.1.3/bin/ninja/win/ninja.exe cmTC_4f406 && [1/2] Building C object CMakeFiles/cmTC_4f406.dir/CheckSymbolExists.c.obj
-FAILED: CMakeFiles/cmTC_4f406.dir/CheckSymbolExists.c.obj 
-C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe   -idirafter "C:/github/sdl-game-project/mygame/vendored/sdl/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_4f406.dir/CheckSymbolExists.c.obj -c C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: error: 'wcslcat' undeclared (first use in this function); did you mean 'wcsncat'?
+Run Build Command(s):C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_dbf43/fast && C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_dbf43.dir\build.make CMakeFiles/cmTC_dbf43.dir/build
+mingw32-make[1]: Entering directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dbf43.dir/CheckSymbolExists.c.obj
+C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe   -idirafter "C:/github/check-if-works/mygame/vendored/sdl/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_dbf43.dir\CheckSymbolExists.c.obj -c C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: error: 'wcslcat' undeclared (first use in this function); did you mean 'wcsncat'?
    14 |   return ((int*)(&wcslcat))[argc];
       |                   ^~~~~~~
       |                   wcsncat
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
-ninja: build stopped: subcommand failed.
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+mingw32-make[1]: *** [CMakeFiles\cmTC_dbf43.dir\build.make:77: CMakeFiles/cmTC_dbf43.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_dbf43/fast] Error 2
 
 
-File C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <stddef.h>
 #include <stdarg.h>
@@ -611,21 +681,24 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the wcslcpy exist failed with the following output:
-Change Dir: C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.1.3/bin/ninja/win/ninja.exe cmTC_10919 && [1/2] Building C object CMakeFiles/cmTC_10919.dir/CheckSymbolExists.c.obj
-FAILED: CMakeFiles/cmTC_10919.dir/CheckSymbolExists.c.obj 
-C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe   -idirafter "C:/github/sdl-game-project/mygame/vendored/sdl/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_10919.dir/CheckSymbolExists.c.obj -c C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: error: 'wcslcpy' undeclared (first use in this function); did you mean 'wcsncpy'?
+Run Build Command(s):C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_5f899/fast && C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_5f899.dir\build.make CMakeFiles/cmTC_5f899.dir/build
+mingw32-make[1]: Entering directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5f899.dir/CheckSymbolExists.c.obj
+C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe   -idirafter "C:/github/check-if-works/mygame/vendored/sdl/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_5f899.dir\CheckSymbolExists.c.obj -c C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: error: 'wcslcpy' undeclared (first use in this function); did you mean 'wcsncpy'?
    14 |   return ((int*)(&wcslcpy))[argc];
       |                   ^~~~~~~
       |                   wcsncpy
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
-ninja: build stopped: subcommand failed.
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+mingw32-make[1]: *** [CMakeFiles\cmTC_5f899.dir\build.make:77: CMakeFiles/cmTC_5f899.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_5f899/fast] Error 2
 
 
-File C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <stddef.h>
 #include <stdarg.h>
@@ -646,21 +719,24 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the wcscasecmp exist failed with the following output:
-Change Dir: C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.1.3/bin/ninja/win/ninja.exe cmTC_99c22 && [1/2] Building C object CMakeFiles/cmTC_99c22.dir/CheckSymbolExists.c.obj
-FAILED: CMakeFiles/cmTC_99c22.dir/CheckSymbolExists.c.obj 
-C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe   -idirafter "C:/github/sdl-game-project/mygame/vendored/sdl/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_99c22.dir/CheckSymbolExists.c.obj -c C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: error: 'wcscasecmp' undeclared (first use in this function); did you mean 'strcasecmp'?
+Run Build Command(s):C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_890c4/fast && C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_890c4.dir\build.make CMakeFiles/cmTC_890c4.dir/build
+mingw32-make[1]: Entering directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_890c4.dir/CheckSymbolExists.c.obj
+C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe   -idirafter "C:/github/check-if-works/mygame/vendored/sdl/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_890c4.dir\CheckSymbolExists.c.obj -c C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: error: 'wcscasecmp' undeclared (first use in this function); did you mean 'strcasecmp'?
    14 |   return ((int*)(&wcscasecmp))[argc];
       |                   ^~~~~~~~~~
       |                   strcasecmp
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
-ninja: build stopped: subcommand failed.
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+mingw32-make[1]: *** [CMakeFiles\cmTC_890c4.dir\build.make:77: CMakeFiles/cmTC_890c4.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_890c4/fast] Error 2
 
 
-File C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <stddef.h>
 #include <stdarg.h>
@@ -681,21 +757,24 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the wcsncasecmp exist failed with the following output:
-Change Dir: C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.1.3/bin/ninja/win/ninja.exe cmTC_a4da9 && [1/2] Building C object CMakeFiles/cmTC_a4da9.dir/CheckSymbolExists.c.obj
-FAILED: CMakeFiles/cmTC_a4da9.dir/CheckSymbolExists.c.obj 
-C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe   -idirafter "C:/github/sdl-game-project/mygame/vendored/sdl/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_a4da9.dir/CheckSymbolExists.c.obj -c C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: error: 'wcsncasecmp' undeclared (first use in this function); did you mean 'strncasecmp'?
+Run Build Command(s):C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_476ae/fast && C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_476ae.dir\build.make CMakeFiles/cmTC_476ae.dir/build
+mingw32-make[1]: Entering directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_476ae.dir/CheckSymbolExists.c.obj
+C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe   -idirafter "C:/github/check-if-works/mygame/vendored/sdl/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_476ae.dir\CheckSymbolExists.c.obj -c C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: error: 'wcsncasecmp' undeclared (first use in this function); did you mean 'strncasecmp'?
    14 |   return ((int*)(&wcsncasecmp))[argc];
       |                   ^~~~~~~~~~~
       |                   strncasecmp
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
-ninja: build stopped: subcommand failed.
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+mingw32-make[1]: *** [CMakeFiles\cmTC_476ae.dir\build.make:77: CMakeFiles/cmTC_476ae.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_476ae/fast] Error 2
 
 
-File C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <stddef.h>
 #include <stdarg.h>
@@ -716,20 +795,23 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the sigaction exist failed with the following output:
-Change Dir: C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.1.3/bin/ninja/win/ninja.exe cmTC_bfc2c && [1/2] Building C object CMakeFiles/cmTC_bfc2c.dir/CheckSymbolExists.c.obj
-FAILED: CMakeFiles/cmTC_bfc2c.dir/CheckSymbolExists.c.obj 
-C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe   -idirafter "C:/github/sdl-game-project/mygame/vendored/sdl/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_bfc2c.dir/CheckSymbolExists.c.obj -c C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: 'sigaction' undeclared (first use in this function)
+Run Build Command(s):C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_4d092/fast && C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_4d092.dir\build.make CMakeFiles/cmTC_4d092.dir/build
+mingw32-make[1]: Entering directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4d092.dir/CheckSymbolExists.c.obj
+C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe   -idirafter "C:/github/check-if-works/mygame/vendored/sdl/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_4d092.dir\CheckSymbolExists.c.obj -c C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8:19: error: 'sigaction' undeclared (first use in this function)
     8 |   return ((int*)(&sigaction))[argc];
       |                   ^~~~~~~~~
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
-ninja: build stopped: subcommand failed.
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+mingw32-make[1]: *** [CMakeFiles\cmTC_4d092.dir\build.make:77: CMakeFiles/cmTC_4d092.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_4d092/fast] Error 2
 
 
-File C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <signal.h>
 
@@ -744,20 +826,23 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the sysconf exist failed with the following output:
-Change Dir: C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.1.3/bin/ninja/win/ninja.exe cmTC_67c2a && [1/2] Building C object CMakeFiles/cmTC_67c2a.dir/CheckSymbolExists.c.obj
-FAILED: CMakeFiles/cmTC_67c2a.dir/CheckSymbolExists.c.obj 
-C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe   -idirafter "C:/github/sdl-game-project/mygame/vendored/sdl/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_67c2a.dir/CheckSymbolExists.c.obj -c C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: 'sysconf' undeclared (first use in this function)
+Run Build Command(s):C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_53540/fast && C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_53540.dir\build.make CMakeFiles/cmTC_53540.dir/build
+mingw32-make[1]: Entering directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_53540.dir/CheckSymbolExists.c.obj
+C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe   -idirafter "C:/github/check-if-works/mygame/vendored/sdl/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_53540.dir\CheckSymbolExists.c.obj -c C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8:19: error: 'sysconf' undeclared (first use in this function)
     8 |   return ((int*)(&sysconf))[argc];
       |                   ^~~~~~~
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
-ninja: build stopped: subcommand failed.
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+mingw32-make[1]: *** [CMakeFiles\cmTC_53540.dir\build.make:77: CMakeFiles/cmTC_53540.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_53540/fast] Error 2
 
 
-File C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <unistd.h>
 
@@ -772,19 +857,22 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the sysctlbyname exist failed with the following output:
-Change Dir: C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.1.3/bin/ninja/win/ninja.exe cmTC_58f15 && [1/2] Building C object CMakeFiles/cmTC_58f15.dir/CheckSymbolExists.c.obj
-FAILED: CMakeFiles/cmTC_58f15.dir/CheckSymbolExists.c.obj 
-C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe   -idirafter "C:/github/sdl-game-project/mygame/vendored/sdl/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_58f15.dir/CheckSymbolExists.c.obj -c C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:3:10: fatal error: sys/sysctl.h: No such file or directory
+Run Build Command(s):C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_e9608/fast && C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_e9608.dir\build.make CMakeFiles/cmTC_e9608.dir/build
+mingw32-make[1]: Entering directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e9608.dir/CheckSymbolExists.c.obj
+C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe   -idirafter "C:/github/check-if-works/mygame/vendored/sdl/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_e9608.dir\CheckSymbolExists.c.obj -c C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:3:10: fatal error: sys/sysctl.h: No such file or directory
     3 | #include <sys/sysctl.h>
       |          ^~~~~~~~~~~~~~
 compilation terminated.
-ninja: build stopped: subcommand failed.
+mingw32-make[1]: *** [CMakeFiles\cmTC_e9608.dir\build.make:77: CMakeFiles/cmTC_e9608.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_e9608/fast] Error 2
 
 
-File C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <sys/types.h>
 #include <sys/sysctl.h>
@@ -800,19 +888,22 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the getauxval exist failed with the following output:
-Change Dir: C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.1.3/bin/ninja/win/ninja.exe cmTC_48ffb && [1/2] Building C object CMakeFiles/cmTC_48ffb.dir/CheckSymbolExists.c.obj
-FAILED: CMakeFiles/cmTC_48ffb.dir/CheckSymbolExists.c.obj 
-C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe   -idirafter "C:/github/sdl-game-project/mygame/vendored/sdl/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_48ffb.dir/CheckSymbolExists.c.obj -c C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: sys/auxv.h: No such file or directory
+Run Build Command(s):C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_2076a/fast && C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_2076a.dir\build.make CMakeFiles/cmTC_2076a.dir/build
+mingw32-make[1]: Entering directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2076a.dir/CheckSymbolExists.c.obj
+C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe   -idirafter "C:/github/check-if-works/mygame/vendored/sdl/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_2076a.dir\CheckSymbolExists.c.obj -c C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:2:10: fatal error: sys/auxv.h: No such file or directory
     2 | #include <sys/auxv.h>
       |          ^~~~~~~~~~~~
 compilation terminated.
-ninja: build stopped: subcommand failed.
+mingw32-make[1]: *** [CMakeFiles\cmTC_2076a.dir\build.make:77: CMakeFiles/cmTC_2076a.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_2076a/fast] Error 2
 
 
-File C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <sys/auxv.h>
 
@@ -827,19 +918,22 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the elf_aux_info exist failed with the following output:
-Change Dir: C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.1.3/bin/ninja/win/ninja.exe cmTC_46ead && [1/2] Building C object CMakeFiles/cmTC_46ead.dir/CheckSymbolExists.c.obj
-FAILED: CMakeFiles/cmTC_46ead.dir/CheckSymbolExists.c.obj 
-C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe   -idirafter "C:/github/sdl-game-project/mygame/vendored/sdl/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_46ead.dir/CheckSymbolExists.c.obj -c C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: sys/auxv.h: No such file or directory
+Run Build Command(s):C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_fa9c8/fast && C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_fa9c8.dir\build.make CMakeFiles/cmTC_fa9c8.dir/build
+mingw32-make[1]: Entering directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fa9c8.dir/CheckSymbolExists.c.obj
+C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe   -idirafter "C:/github/check-if-works/mygame/vendored/sdl/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_fa9c8.dir\CheckSymbolExists.c.obj -c C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:2:10: fatal error: sys/auxv.h: No such file or directory
     2 | #include <sys/auxv.h>
       |          ^~~~~~~~~~~~
 compilation terminated.
-ninja: build stopped: subcommand failed.
+mingw32-make[1]: *** [CMakeFiles\cmTC_fa9c8.dir\build.make:77: CMakeFiles/cmTC_fa9c8.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_fa9c8/fast] Error 2
 
 
-File C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <sys/auxv.h>
 
@@ -854,19 +948,22 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the poll exist failed with the following output:
-Change Dir: C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.1.3/bin/ninja/win/ninja.exe cmTC_9a4e6 && [1/2] Building C object CMakeFiles/cmTC_9a4e6.dir/CheckSymbolExists.c.obj
-FAILED: CMakeFiles/cmTC_9a4e6.dir/CheckSymbolExists.c.obj 
-C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe   -idirafter "C:/github/sdl-game-project/mygame/vendored/sdl/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_9a4e6.dir/CheckSymbolExists.c.obj -c C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: poll.h: No such file or directory
+Run Build Command(s):C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_ec94e/fast && C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_ec94e.dir\build.make CMakeFiles/cmTC_ec94e.dir/build
+mingw32-make[1]: Entering directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ec94e.dir/CheckSymbolExists.c.obj
+C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe   -idirafter "C:/github/check-if-works/mygame/vendored/sdl/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_ec94e.dir\CheckSymbolExists.c.obj -c C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:2:10: fatal error: poll.h: No such file or directory
     2 | #include <poll.h>
       |          ^~~~~~~~
 compilation terminated.
-ninja: build stopped: subcommand failed.
+mingw32-make[1]: *** [CMakeFiles\cmTC_ec94e.dir\build.make:77: CMakeFiles/cmTC_ec94e.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_ec94e/fast] Error 2
 
 
-File C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <poll.h>
 
@@ -881,19 +978,22 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the memfd_create exist failed with the following output:
-Change Dir: C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.1.3/bin/ninja/win/ninja.exe cmTC_07aa6 && [1/2] Building C object CMakeFiles/cmTC_07aa6.dir/CheckSymbolExists.c.obj
-FAILED: CMakeFiles/cmTC_07aa6.dir/CheckSymbolExists.c.obj 
-C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe   -idirafter "C:/github/sdl-game-project/mygame/vendored/sdl/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_07aa6.dir/CheckSymbolExists.c.obj -c C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: sys/mman.h: No such file or directory
+Run Build Command(s):C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_79425/fast && C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_79425.dir\build.make CMakeFiles/cmTC_79425.dir/build
+mingw32-make[1]: Entering directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_79425.dir/CheckSymbolExists.c.obj
+C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe   -idirafter "C:/github/check-if-works/mygame/vendored/sdl/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_79425.dir\CheckSymbolExists.c.obj -c C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:2:10: fatal error: sys/mman.h: No such file or directory
     2 | #include <sys/mman.h>
       |          ^~~~~~~~~~~~
 compilation terminated.
-ninja: build stopped: subcommand failed.
+mingw32-make[1]: *** [CMakeFiles\cmTC_79425.dir\build.make:77: CMakeFiles/cmTC_79425.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_79425/fast] Error 2
 
 
-File C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <sys/mman.h>
 
@@ -908,20 +1008,23 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the posix_fallocate exist failed with the following output:
-Change Dir: C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.1.3/bin/ninja/win/ninja.exe cmTC_680fe && [1/2] Building C object CMakeFiles/cmTC_680fe.dir/CheckSymbolExists.c.obj
-FAILED: CMakeFiles/cmTC_680fe.dir/CheckSymbolExists.c.obj 
-C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe   -idirafter "C:/github/sdl-game-project/mygame/vendored/sdl/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_680fe.dir/CheckSymbolExists.c.obj -c C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: 'posix_fallocate' undeclared (first use in this function)
+Run Build Command(s):C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_8261b/fast && C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_8261b.dir\build.make CMakeFiles/cmTC_8261b.dir/build
+mingw32-make[1]: Entering directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8261b.dir/CheckSymbolExists.c.obj
+C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe   -idirafter "C:/github/check-if-works/mygame/vendored/sdl/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_8261b.dir\CheckSymbolExists.c.obj -c C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8:19: error: 'posix_fallocate' undeclared (first use in this function)
     8 |   return ((int*)(&posix_fallocate))[argc];
       |                   ^~~~~~~~~~~~~~~
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
-ninja: build stopped: subcommand failed.
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+mingw32-make[1]: *** [CMakeFiles\cmTC_8261b.dir\build.make:77: CMakeFiles/cmTC_8261b.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_8261b/fast] Error 2
 
 
-File C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <fcntl.h>
 
@@ -936,33 +1039,39 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the include file alloca.h exists failed with the following output:
-Change Dir: C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.1.3/bin/ninja/win/ninja.exe cmTC_59ca5 && [1/2] Building C object CMakeFiles/cmTC_59ca5.dir/CheckIncludeFile.c.obj
-FAILED: CMakeFiles/cmTC_59ca5.dir/CheckIncludeFile.c.obj 
-C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe   -idirafter "C:/github/sdl-game-project/mygame/vendored/sdl/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_59ca5.dir/CheckIncludeFile.c.obj -c C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: alloca.h: No such file or directory
+Run Build Command(s):C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_de5df/fast && C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_de5df.dir\build.make CMakeFiles/cmTC_de5df.dir/build
+mingw32-make[1]: Entering directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_de5df.dir/CheckIncludeFile.c.obj
+C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe   -idirafter "C:/github/check-if-works/mygame/vendored/sdl/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_de5df.dir\CheckIncludeFile.c.obj -c C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:10: fatal error: alloca.h: No such file or directory
     1 | #include <alloca.h>
       |          ^~~~~~~~~~
 compilation terminated.
-ninja: build stopped: subcommand failed.
+mingw32-make[1]: *** [CMakeFiles\cmTC_de5df.dir\build.make:77: CMakeFiles/cmTC_de5df.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_de5df/fast] Error 2
 
 
 
 Determining if the alloca exist failed with the following output:
-Change Dir: C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.1.3/bin/ninja/win/ninja.exe cmTC_dbdce && [1/2] Building C object CMakeFiles/cmTC_dbdce.dir/CheckSymbolExists.c.obj
-FAILED: CMakeFiles/cmTC_dbdce.dir/CheckSymbolExists.c.obj 
-C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe   -idirafter "C:/github/sdl-game-project/mygame/vendored/sdl/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_dbdce.dir/CheckSymbolExists.c.obj -c C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: alloca.h: No such file or directory
+Run Build Command(s):C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_315c2/fast && C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_315c2.dir\build.make CMakeFiles/cmTC_315c2.dir/build
+mingw32-make[1]: Entering directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_315c2.dir/CheckSymbolExists.c.obj
+C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe   -idirafter "C:/github/check-if-works/mygame/vendored/sdl/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_315c2.dir\CheckSymbolExists.c.obj -c C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:2:10: fatal error: alloca.h: No such file or directory
     2 | #include <alloca.h>
       |          ^~~~~~~~~~
 compilation terminated.
-ninja: build stopped: subcommand failed.
+mingw32-make[1]: *** [CMakeFiles\cmTC_315c2.dir\build.make:77: CMakeFiles/cmTC_315c2.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_315c2/fast] Error 2
 
 
-File C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <alloca.h>
 
@@ -977,16 +1086,19 @@ int main(int argc, char** argv)
 #endif
 }
 Performing C SOURCE FILE Test HAVE_SA_SIGACTION failed with the following output:
-Change Dir: C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.1.3/bin/ninja/win/ninja.exe cmTC_41753 && [1/2] Building C object CMakeFiles/cmTC_41753.dir/src.c.obj
-FAILED: CMakeFiles/cmTC_41753.dir/src.c.obj 
-C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe -DHAVE_SA_SIGACTION  -idirafter "C:/github/sdl-game-project/mygame/vendored/sdl/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_41753.dir/src.c.obj -c C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/src.c: In function 'main':
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:6:39: error: invalid use of undefined type 'struct sigaction'
+Run Build Command(s):C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_b66ea/fast && C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_b66ea.dir\build.make CMakeFiles/cmTC_b66ea.dir/build
+mingw32-make[1]: Entering directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b66ea.dir/src.c.obj
+C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe -DHAVE_SA_SIGACTION  -idirafter "C:/github/check-if-works/mygame/vendored/sdl/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_b66ea.dir\src.c.obj -c C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\src.c
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\src.c: In function 'main':
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\src.c:6:39: error: invalid use of undefined type 'struct sigaction'
     6 |   (void)sizeof(((struct sigaction *)0)->sa_sigaction);
       |                                       ^~
-ninja: build stopped: subcommand failed.
+mingw32-make[1]: *** [CMakeFiles\cmTC_b66ea.dir\build.make:77: CMakeFiles/cmTC_b66ea.dir/src.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_b66ea/fast] Error 2
 
 
 Source file was:
@@ -1000,16 +1112,19 @@ int main()
 }
 
 Performing C SOURCE FILE Test HAVE_WINDOWS_GAMING_INPUT_H failed with the following output:
-Change Dir: C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.1.3/bin/ninja/win/ninja.exe cmTC_c1745 && [1/2] Building C object CMakeFiles/cmTC_c1745.dir/src.c.obj
-FAILED: CMakeFiles/cmTC_c1745.dir/src.c.obj 
-C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe -DHAVE_WINDOWS_GAMING_INPUT_H  -idirafter "C:/github/sdl-game-project/mygame/vendored/sdl/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_c1745.dir/src.c.obj -c C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
-C:/github/sdl-game-project/mygame/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:3:16: fatal error: windows.gaming.input.h: No such file or directory
+Run Build Command(s):C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_f3211/fast && C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_f3211.dir\build.make CMakeFiles/cmTC_f3211.dir/build
+mingw32-make[1]: Entering directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f3211.dir/src.c.obj
+C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe -DHAVE_WINDOWS_GAMING_INPUT_H  -idirafter "C:/github/check-if-works/mygame/vendored/sdl/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_f3211.dir\src.c.obj -c C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\src.c
+C:\github\check-if-works\mygame\cmake-build-debug\CMakeFiles\CMakeTmp\src.c:3:16: fatal error: windows.gaming.input.h: No such file or directory
     3 |       #include <windows.gaming.input.h>
       |                ^~~~~~~~~~~~~~~~~~~~~~~~
 compilation terminated.
-ninja: build stopped: subcommand failed.
+mingw32-make[1]: *** [CMakeFiles\cmTC_f3211.dir\build.make:77: CMakeFiles/cmTC_f3211.dir/src.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/github/check-if-works/mygame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_f3211/fast] Error 2
 
 
 Source file was:

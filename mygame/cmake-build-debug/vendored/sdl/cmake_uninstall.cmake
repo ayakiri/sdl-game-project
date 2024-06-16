@@ -1,8 +1,8 @@
-if (NOT EXISTS "C:/github/sdl-game-project/mygame/cmake-build-debug/install_manifest.txt")
-    message(FATAL_ERROR "Cannot find install manifest: \"C:/github/sdl-game-project/mygame/cmake-build-debug/install_manifest.txt\"")
-endif(NOT EXISTS "C:/github/sdl-game-project/mygame/cmake-build-debug/install_manifest.txt")
+if (NOT EXISTS "C:/github/check-if-works/mygame/cmake-build-debug/install_manifest.txt")
+    message(FATAL_ERROR "Cannot find install manifest: \"C:/github/check-if-works/mygame/cmake-build-debug/install_manifest.txt\"")
+endif(NOT EXISTS "C:/github/check-if-works/mygame/cmake-build-debug/install_manifest.txt")
 
-file(READ "C:/github/sdl-game-project/mygame/cmake-build-debug/install_manifest.txt" files)
+file(READ "C:/github/check-if-works/mygame/cmake-build-debug/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 foreach (file ${files})
     message(STATUS "Uninstalling \"$ENV{DESTDIR}${file}\"")
